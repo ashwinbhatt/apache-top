@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "ts-node src/app/app.ts",
+    "build": "tsc",
+    "test": "ts-node src/test/TestRoot.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "date-format-parse": "^0.2.7",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "printf": "^0.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.1"
+  },
+  "name": "apache-top-ashwin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
