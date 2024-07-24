@@ -48,4 +48,15 @@ docker-compose -f ./log-generator/docker-compose.yml down
 ### Limitation
 - Do NOT use syntax ```let```
 - Do NOT use new packages outside what are listed in packages.json
+
+### Running application
+1. Running the application. 
+```bash
+  yarn start
+```
+
+2. Running all tests
+```bash
+  yarn test
+```
 # apache-top
